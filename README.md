@@ -1,2 +1,2 @@
 # JELLYMAUI
- Equipo 07
+ Equipo 7
