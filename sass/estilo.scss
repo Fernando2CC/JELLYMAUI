@@ -6,13 +6,22 @@
 }
 
 $color1: #bafb8b;
+$color2: #73e6d7;
+$color3: #73e6d8;
+$color4: #847fff;
+$color5: #fe967e;
+$color6: #f4d479;
+
+.Conteiner1{
+    padding-top: 10%;
+}
 
 body{
-    background-color: #f8f8f8;
+    background-color: $color2;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.Conteiner1{
-    padding-top: 10%;
-    background-color: $color1;
+
+footer{
+    background-color: $color6;
 }
