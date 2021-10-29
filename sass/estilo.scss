@@ -4,3 +4,15 @@
     box-sizing: border-box;
     color: #ffffff;
 }
+
+$color1: #bafb8b;
+
+body{
+    background-color: #f8f8f8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Conteiner1{
+    padding-top: 10%;
+    background-color: $color1;
+}
