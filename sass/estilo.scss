@@ -13,8 +13,8 @@ $color5: #fe967e;
 $color6: #f4d479;
 
 .Carrucel{
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-top: 15vw;
   }
 
@@ -23,7 +23,7 @@ $color6: #f4d479;
 }
 
 body{
-    background-color: $color2;
+    background-image: linear-gradient(160deg, #fdffc3 0, #f1ffc0 8.33%, #e3ffbe 16.67%, #d4fcbc 25%, #c4faba 33.33%, #b1f6b9 41.67%, #9df2b9 50%, #87eeba 58.33%, #6eeabd 66.67%, #51e6c2 75%, #24e2c8 83.33%, #00dfd0 91.67%, #00dcd8 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
