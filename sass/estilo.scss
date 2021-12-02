@@ -12,6 +12,25 @@ $color4: #847fff;
 $color5: #fe967e;
 $color6: #f4d479;
 
+.nav-bar{
+    margin-top: -1.6%;
+}
+h3{
+    font-size: clamp(1rem, 8vw, 2rem);
+  }
+
+h4{
+    font-size: clamp(1rem, 8vw, 1.1rem);  
+  }
+
+a{
+    color: white;
+  text-decoration: none;
+    &:hover{
+        color: white;
+    }
+  }
+
 .Carrucel{
     padding-left: 10vw;
     padding-right: 10vw;
@@ -28,6 +47,58 @@ body{
     background-attachment: fixed;
 }
 
-footer{
-    background-color: $color6;
+.menu{
+    background-color: #bafb8b;
 }
+
+.column1{
+    margin-top: 2%;
+    flex: 20%;
+    padding: 1%;
+    img{
+        width: 100%;
+        border-radius: 15%;
+      }
+  }
+  .Caja{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    }
+    .Texto{
+        flex: 20%;
+        background-color: #847fff;
+        position: absolute;
+        top: 79%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        }
+  
+  .column{
+    background-image: radial-gradient(circle at 50% -20.71%, #d1fff8 0, #befff6 10%, #a7fff4 20%, #8dfff3 30%, #6cfbf2 40%, #3cf2f2 50%, #00e8f3 60%, #00dff5 70%, #00d6f9 80%, #00cefd 90%, #00c6ff 100%);
+    padding: 5%;
+  }
+
+  .col1{
+      padding-left: 25%;
+  }
+  .col{
+    padding-left: 10%;
+}
+
+  .column img{
+    margin-top: 10px;
+  }
+  .row1{
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+ }
+ 
+footer{
+    background-color: $color4;
+}
+
