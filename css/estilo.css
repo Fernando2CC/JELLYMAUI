@@ -25,6 +25,10 @@ a:hover {
   color: white;
 }
 
+.modal-content {
+  background-color: #f4d479;
+}
+
 .Carrucel {
   padding-left: 10vw;
   padding-right: 10vw;
@@ -95,6 +99,18 @@ body {
   display: flex;
   padding: 5px;
   flex-wrap: wrap;
+}
+
+.conteinera {
+  padding-top: 10%;
+  padding-left: 0%;
+}
+
+.carda {
+  margin-left: 5%;
+  padding-bottom: 20%;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
 }
 
 footer {
