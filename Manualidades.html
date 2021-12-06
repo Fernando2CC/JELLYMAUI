@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html long="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="description" content="PaginaWeb">  
+    <meta name="keywords" content="compras, ventas, camisas, tazas, cuadernos, niños"> 
+    <link rel="icon" href="img/icono1.png" type="image/png" sizes="16x16"> 
+    <meta name="author" content="JELLYMAUI">  
+   
+    <title>
+      JELLYMAUI
+    </title>
+
+          <link rel="icon" href="img/icono1.png" type="image/ico" sizes="16x16">
+          <meta name="author" content="JELLYMAUI"> 
+          <meta name="description" content="Tienda en linea">
+          <meta name="keywords" content="Productos, ilustración, niños"> 
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Para ejemplo 3-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="img-fluid" src="img/Letras.png" alt="Logo"  width="200" height="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Catálogo
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="catalogo.html">Camisas</a></li>
+                            <li><a class="dropdown-item" href="catalogotaza.html">Tazas</a></li>
+                            <li><a class="dropdown-item" href="catalogocuaderno.html">Cuadernos</a></li>
+                          </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Manualidades.html">Manualidades</a>
+                        </li>                      
+                    </ul>                      
+                </div>
+                <ul class="nav justify-content-end">
+                  <li>
+                      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"><box-icon  name='cart' color='#ffffff' size="lg" ></box-icon></button>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+</header>
+
+<main style="margin-top: 2%; ">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="exampleModalLabel">Iniciar sesión</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Registrarse</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<div class="container text-center"> <h2 style="color: #847fff">ilustraciones hechas por niños</h2>
+  <div class="row">
+  </div>
+  <div id="portfolio3">
+        <div class="container mb-2 borde"> 
+          <h1 class="text-center"></h1>
+        </div>
+
+        <div class="container-fluid p-0">
+          <div class="row no-gutters">
+              <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/CamisaBlanca.png">
+                      <img class="img-fluid" src="img/CamisaBlanca.png"  alt="" />
+                  </a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/Cuaderno.png">
+                      <img class="img-fluid" src="img/Cuaderno.png" alt="" />
+                  </a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/TazaBlanca.png">
+                      <img class="img-fluid" src="img/TazaBlanca.png" alt="" />
+                  </a>
+              </div>
+      </div>
+  </div>
+ </div>
+</div>
+
+    <footer>
+        <div class="container py-5">
+          <div class="row">
+              <div class="col-lg-4 mb-5">
+                  Téminos de Servicio <br>
+                  <a href="contacto.html">Contacto</a>  <br>
+                  <a href="mailto:jellymaui@gmail.com">Correo</a><br>
+              </div>
+              <div class="col-lg-4">
+                Preguntas Frecuentes<br>
+                Políticas de Privacidad
+              </div>
+              <div class="col-lg-4">
+                  <box-icon name='facebook' type='logo' color='#ffffff' size="lg"></box-icon>
+                  <box-icon name='instagram' type='logo' color='#ffffff' size="lg" ></box-icon>
+                  <box-icon name='twitter' type='logo' color='#ffffff' size="lg"></box-icon>
+              </div>
+          </div>
+        </div>
+  </footer>
+
+  <!-- Librería para ejemplo 3-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+   
+  
+<!-- Codigo para ejemplo 3-->
+<script>
+$(document).ready(function(){
+   $('#portfolio3').magnificPopup({
+   delegate: 'a',
+   type: 'image',
+   tLoading: 'Loading image #%curr%...',
+   mainClass: 'mfp-img-mobile',
+   gallery: {
+     enabled: true,
+     navigateByImgClick: true,
+     preload: [0, 1]
+   },
+   image: {
+     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+   }
+   });
+});
+</script>
+</body>    
+</html>

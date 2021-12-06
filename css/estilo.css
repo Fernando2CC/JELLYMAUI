@@ -187,6 +187,10 @@ footer {
     flex-direction: column;
   }
 }
-miboton {
-  background-color: black;
+.miboton {
+  background-color: #fe967e;
+}
+
+.row {
+  padding-bottom: 8%;
 }
