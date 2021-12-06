@@ -33,7 +33,7 @@
         <nav class="nav-bar">
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img class="img-fluid" src="img/Letras.png" alt="Logo"  width="200" height="100"></a>
+                  <a class="navbar-brand"><img class="img-fluid" src="img/Letras.png" alt="Logo"  width="200" height="100"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -42,14 +42,17 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">Inicio</a>
                             </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Catálogo
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="catalogo.html">Camisas</a></li>
+                                <li><a class="dropdown-item" href="catalogotaza.html">Tazas</a></li>
+                                <li><a class="dropdown-item" href="catalogocuaderno.html">Cuadernos</a></li>
+                              </ul>
                             <li class="nav-item">
-                                <a class="nav-link" href="#vendidos">Más vendidos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="catalogo.html">Catálogo</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#comentarios">Comentarios</a>
+                                <a class="nav-link" href="comentarios.html">Comentarios</a>
                             </li>                            
                         </ul>                      
                     </div>
@@ -68,7 +71,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Iniciar sesión</h5>
+              <h4 class="modal-title" id="exampleModalLabel">Iniciar sesión</h4>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -99,7 +102,7 @@
     <section id="Producto" >
       <div class="carda mb-3" style="max-width: 90%;">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-8">
             <div class="conteinera">
               <!-- Carousel -->
                   <div id="Productos" class="carousel slide" data-bs-ride="carousel">
@@ -131,27 +134,33 @@
                   </div>
           </div>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title" style="color: #000;" >Producto</h5>
+          <div class="col-md-4">
+            <div class="card-body" >
+              <h4 class="card-title" style="color: #000;text-align: center;" ><a>Ejemplo</a> </h4>
               <p class="card-text" style="color: #000;" >
-                <ul>
-                  <li style="color: #000;">
-                      <a> Color: Blanco </a>
-                  </li>
-                  <li style="color: #000;">
-                      <a>Talla: sm, m, xl</a>
-                  </li>
-                  <li style="color: #000;">
-                      <a>Disponible: si </a>
-                  </li>
-                  <li style="color: #000;">
-                      <a>Precio: $50</a>
-                  </li>                            
-              </ul>    
+
+                <ul class="list-group">
+                  <li class="list-group-item active" aria-current="true"><h4>Producto</h4></li>
+                  <li class="list-group-item">Color: Blanco</li>
+                  <li class="list-group-item">Talla: sm, m, xl</li>
+                  <li class="list-group-item">Disponible: si</li>
+                  <li class="list-group-item">Precio: $50</li>
+                </ul>
+ 
               </p>
               <p><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Comprar</button></p>
             </div>
+          </div>
+          <div class="Descripcion" style=" text-align: center;">
+            <h4><a style="color: #000;">Descripción</a></h4>
+            <p style="color: #000; text-align: center;"><a >Camisa de Algodón, Taza de Porcelana, Cuaderno de 100 hojas</a></p>
+          </div>
+          <div>
+            <center>
+              <img src="img/CamisaBlanca.png" alt="IMG1" style="width:90%;"><br> <br>
+              <img src="img/TazaBlanca.png" alt="IMG1" style="width:90%;"><br> <br>
+              <img src="img/Cuaderno.png" alt="IMG1" style="width:90%;"><br> <br>
+            </center>
           </div>
         </div>
       </div>
@@ -166,7 +175,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     Téminos de Servicio
-                    Contacto  
+                    <a href="contacto.html">Contacto</a> 
                     <a href="mailto:jellymaui@gmail.com">Correo</a>
                 </div>
                 <div class="col-lg-4">
@@ -181,7 +190,5 @@
             </div>
         </div>
     </footer>
-
-
-
 </body>
+</html>

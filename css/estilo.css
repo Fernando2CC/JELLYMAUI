@@ -13,7 +13,7 @@ h3 {
   font-size: clamp(1rem, 8vw, 2rem);
 }
 
-h4 {
+h5 {
   font-size: clamp(1rem, 8vw, 1.1rem);
 }
 
@@ -51,7 +51,7 @@ body {
 
 .column1 {
   margin-top: 1%;
-  flex: 20%;
+  flex: 15%;
   padding: 1%;
 }
 .column1 img {
@@ -103,14 +103,24 @@ body {
 
 .conteinera {
   padding-top: 10%;
-  padding-left: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .carda {
   margin-left: 5%;
-  padding-bottom: 20%;
+  padding-bottom: 5%;
   background-color: #ffffff;
   box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+}
+
+.Descripcion {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.card-body {
+  padding-top: 20%;
 }
 
 footer {
@@ -176,4 +186,7 @@ footer {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
+}
+miboton {
+  background-color: black;
 }
