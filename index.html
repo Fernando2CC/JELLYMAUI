@@ -61,113 +61,138 @@
         </nav>
     </nav>
 </header>
-    <main>
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title" id="exampleModalLabel">Iniciar sesión</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3 row">
-                  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                  <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+
+
+<main>
+  <!-- Video -->
+     <section clas="video" id="video">
+        <div class="row">
+            <video autoplay muted>
+              <source src="img/logo.mp4" type = "video/mp4">
+            </video>
+          </div>   
+  </section>
+
+  <!-- Productos destacados -->
+
+  <div id="productos">
+    <div class="container-md p-5">    
+
+      <div class="row">
+          <div class="col-sm">
+              <div class="card w-100 card-border mb-5"><a href="catalogo.html">
+                <div class="card_image1"><img src="img/bebe.jpg" class="card-img-top" alt="..."></div>
+                  <div class="card-body">
+                    <h5 class="card-text" style="text-align: center; color: rgb(36, 36, 36);"> Lo mejor en todos los productos para tu bebé</h5>
                   </div>
                 </div>
-                <div class="mb-3 row">
-                  <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                  <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword">
+          </div></a>
+          <div class="col-sm">
+              <div class="card w-100 card-border mb-5"><div class="card_image1"><a href="catalogo.html">
+                <img src="img/niña.jpg" class="card-img-top" alt="..."></div>
+                  <div class="card-body"> 
+                    <h5 class="card-text" style="text-align: center; color: rgb(36, 36, 36);">Un lugar lleno de sonrisas y mucho estilo.</h5>
                   </div>
+                </div></a>
+          </div>
+          <div class="col-sm">
+              <div class="card w-100 card-border mb-5"><a href="catalogo.html">
+                <div class="card_image1"><img src="img/niño.jpg" class="card-img-top" alt="..."></div>
+                  <div class="card-body">
+                    <h5 class="card-text" style="text-align: center; color: rgb(36, 36, 36);">La mejor calidad en productos para los más traviesos. </h5>
+                  </div>
+                </div></a>
+          </div>
+        </div>
+      </div>
+
+        <!-- Carousel -->
+        <div class="conteiner">
+            <div id="Productos" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Carrucel" data-bs-slide-to="0" class=""></button>
+                <button type="button" data-bs-target="#Carrucel" data-bs-slide-to="1" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#Carrucel" data-bs-slide-to="2" class=""></button>
                 </div>
-              </form>
+                
+                <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="img/car1.jpg" alt="IMG1" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item active">
+                    <img src="img/car2.jpg" alt="IMG2" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/car3.jpg" alt="IMG3" class="d-block" style="width:100%">
+                </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#Productos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Productos" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Registrarse</button>
+          </div>
+    </div>
+  <!-- promo-->
+  <div class="container-fluid"style="max-width: 2500px; marging: -10%;">
+    <div class="row">
+      <div class="col-md-8">
+        <img src="img/promo.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-4">
+        <div class="card-body">
+          <img src="img/logo.png" alt="logo" width="350px" style="margin: 10%;">
+          <h1 class="card-title" style="text-align: center; color: rgb(146, 201, 19);">NUEVA COLECCIÓN</h1>
+          <h4 class="card-text" style="text-align: center; color: rgb(46, 206, 166);">Otoño - Invierno</h4>
+          <h5 class="card-text" style="text-align: center; color: rgb(88, 88, 88);">Tu creas tu propio estilo</h5>
+          <a href="catalogo.html">
+          <button type="button" class="btn btn-outline-secondary" style="justify-content: center; margin-top: 15%; margin-left: 35%;" >Ver Productos</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Productos destacafos 2 -->
+        <section id="Carrucel" class="Carrucel" style="margin-top: -10%;">
+        <div class="row">
+          <h3 class="text-center pb-5 pt-5 h1" style="color: rgb(36, 36, 36);">Productos destacados</h3>
+        </div>
+        </section>
+        <section id="Vendido" class="Vendido">
+          <div class="Conteiner">
+            <div class="container-fluid mt-2">
+                <div class="row">
+                <div class="col-sm"> <a href="Producto.html"><img src="img/Cuaderno.png" alt="top1" style="width:100%"> </a></div>
+                <div class="col-sm"> <a href="Producto.html"><img src="img/TazaBlanca.png" alt="top1" style="width:100%"> <br> <br/></a></div>
+                <div class="col-sm"> <a href="Producto.html"><img src="img/CamisaBlanca.png" alt="top1" style="width:100%"> </a></div>
+            </div>
+            </div>
+            <div class="container-fluid mt-2">
+              <div class="row">
+              
+                <div class="col-sm"> <a href="Producto.html"> <img src="img/car1.jpg" alt="top1" style="width:100%"> <br> <br/></a></div>
+                <div class="col-sm"> <a href="Producto.html"> <img src="img/car2.jpg" alt="top1" style="width:100%"> </a></div>
+                <div class="col-sm"> <a href="Producto.html"><img src="img/car3.jpg" alt="top1" style="width:100%"> <br> <br/></a></div>
+        </div>
+        </div>
+        </section>
+
+      <!--Alerta-->
+      <div class="container-fluid fixed-bottom py-3" >
+        <div class="position-relative"></div>
+          <div class="col-lg-3 position-absolute bottom-0 end-0">
+            <div class="alert alert-dismisible fade show bg-secondary">
+              <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+              <strong>¡Aprovecha un 20% de descuento! </strong> dentro de la Tienda durante los próximos 2 días. 
             </div>
           </div>
         </div>
       </div>
 
-
-
-
-        <section class="inicio" id="inicio">
-            <div class="Conteiner1">
-                <div class="container-fluid mt-3">
-                    <div class="row">
-                    <div class="col-sm"></div>
-                    <div class="col-sm"><img src="img/logo.png" alt="LogoInicio"> </div>
-                    <div class="col-sm"> </div>
-                </div>
-        </section>
-
-        <section id="Carrucel" class="Carrucel">
-          <div class="container-fluid mt-3">
-            <div class="row">
-            <div class="col-sm"> <a href=""></a><img src="img/icono1.png" alt="top1" style="width:100%"> </div>
-            <div class="col-sm"> <a href=""></a><img src="img/icono2.png" alt="top1" style="width:100%"> <br> <br/></div>
-            <div class="col-sm"> <a href=""></a><img src="img/icono3.png" alt="top1" style="width:100%"> <br> <br/></div>
-            <div class="col-sm"> <a href=""></a><img src="img/icono4.png" alt="top1" style="width:100%"> <br> <br/></div>
-            <div class="col-sm"> <a href=""></a><img src="img/icono5.png" alt="top1" style="width:100%"> <br> <br/></div>
-        </div>
-          <div class="conteiner">
-                <!-- Carousel -->
-                    <div id="Productos" class="carousel slide" data-bs-ride="carousel">
-
-                        <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#Carrucel" data-bs-slide-to="0" class="active"></button>
-                        <button type="button" data-bs-target="#Carrucel" data-bs-slide-to="1"></button>
-                        <button type="button" data-bs-target="#Carrucel" data-bs-slide-to="2"></button>
-                        </div>
-                        
-                        <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/TazaBlanca.png" alt="IMG1" class="d-block" style="width:100%">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/CamisaBlanca.png" alt="IMG2" class="d-block" style="width:100%">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/Cuaderno.png" alt="IMG3" class="d-block" style="width:100%">
-                        </div>
-                        </div>
-                        
-                        <button class="carousel-control-prev" type="button" data-bs-target="#Productos" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#Productos" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-            </div>
-        </div>
-        </section>
-
-        <section id="Vendido" class="Vendido">
-          <div class="Conteiner1">
-            <div class="container-fluid mt-3">
-                <div class="row">
-                <div class="col-sm"> <img src="img/TazaBlanca.png" alt="top1" style="width:100%"> </div>
-                <div class="col-sm"> <img src="img/TazaBlanca.png" alt="top1" style="width:100%"> <br> <br/></div>
-            </div>
-            <div class="container-fluid mt-3">
-              <div class="row">
-              <div class="col-sm"> <img src="img/CamisaBlanca.png" alt="top1" style="width:100%"> </div>
-              <div class="col-sm"> <img src="img/CamisaBlanca.png" alt="top1" style="width:100%"> <br> <br/></div>
-          </div>
-          <div class="container-fluid mt-3">
-            <div class="row">
-            <div class="col-sm"> <img src="img/Cuaderno.png" alt="top1" style="width:100%"> </div>
-            <div class="col-sm"> <img src="img/Cuaderno.png" alt="top1" style="width:100%"> <br> <br/></div>
-        </div>
-        </section>
-
-     
       </main>
 
 
@@ -176,19 +201,26 @@
       <div class="container py-5">
         <div class="row">
             <div class="col-lg-4 mb-5">
-                Téminos de Servicio<br>
+                <a href="Proximamente.html">Términos de Servicio</a> <br>
                 <a href="contacto.html">Contacto</a>  <br>
                 <a href="mailto:jellymaui@gmail.com">Correo</a>
             </div>
             <div class="col-lg-4">
-              Preguntas Frecuentes<br>
-              Políticas de Privacidad
+              <a href="Proximamente.html">Preguntas Frecuentes</a> <br>
+              <a href="Proximamente.html">Políticas de Privacidad</a> 
             </div>
             <div class="col-lg-4">
-                <box-icon name='facebook' type='logo' color='#ffffff' size="lg"></box-icon>
-                <box-icon name='instagram' type='logo' color='#ffffff' size="lg" ></box-icon>
-                <box-icon name='twitter' type='logo' color='#ffffff' size="lg"></box-icon>
+                <a href="Proximamente.html"><box-icon name='facebook' type='logo' color='#ffffff' size="lg"></box-icon></a>
+                <a href="Proximamente.html"><box-icon name='instagram' type='logo' color='#ffffff' size="lg" ></box-icon></a>
+                <a href="Proximamente.html"><box-icon name='twitter' type='logo' color='#ffffff' size="lg"></box-icon></a>
             </div>
+        </div>
+      </div>
+      <div class="row">
+        <a href="index.html">
+        <div class="col-lg-12 text-center" style="margin-top: 2%;">
+          <a href=""><h6>@jelly Maui | 2021</h6></a>
+        </a>
         </div>
       </div>
     </footer>

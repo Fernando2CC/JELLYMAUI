@@ -1,4 +1,4 @@
-77<!DOCTYPE html>
+<!DOCTYPE html>
 <html long="es">
 <head>
     <meta charset="UTF-8">
@@ -20,13 +20,15 @@
 
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Para ejemplo 3-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
-    
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="css/estilo.css">
 </head>
@@ -55,7 +57,7 @@
                           </ul>
                         <li class="nav-item">
                             <a class="nav-link" href="Manualidades.html">Manualidades</a>
-                        </li>                           
+                        </li>                      
                     </ul>                      
                 </div>
                 <ul class="nav justify-content-end">
@@ -67,73 +69,22 @@
         </nav>
     </nav>
 </header>
+
     <main>
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title" id="exampleModalLabel">Iniciar sesión</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3 row">
-                  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                  <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
-                  </div>
-                </div>
-                <div class="mb-3 row">
-                  <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                  <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword">
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Registrarse</button>
+     
+  
+        <div class="card text-dark bg-light mb-12" style="max-width: 50rem; text-align: center; margin-left: 25%; margin-top: 10%;" >
+            <div class="card-body">
+              <h1 class="card-title" style="color: rgb(192, 0, 150);">PRÓXIMAMENTE...</h1>
+              <h4 class="card-text" style="color: rgb(56, 56, 56);">Contáctate con nosotros para recibir más información</h4>
+        <a href="contacto.html">
+              <button type="button" class="btn btn-secondary" style="margin-top: 10%;">Contacto</button>
+            </a>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="container " style="height: 100vh; padding-top: 10%;">
-      <div class="row justify-content-center"> 
-      
-        <form id="Formulario">
-            <div class="my-3">
-                <label for="name"><h5 style="color: #847fff">Nombre:</h5></label>
-                <input type="text" name="name" class="form-control" id="Nombre" placeholder="Ingresa tu nombre" required>
-              </div>
-            <div class="my-3">
-              <label for="email"><h5 style="color: #847fff">Correo:</h5></label>
-              <input type="email" name="email" class="form-control" id="Correo" placeholder="Enter email" required>
-            </div>
-            <div class="mb-3">
-              <label for="tel"><h5 style="color: #847fff">Teléfono:</h5></label>
-              <input type="tel" name="phone" class="form-control" id="Tel" placeholder="Teléfono" >
-            </div>
-
-            <div class="mb-3">
-                <label for="adress"><h5 style="color: #847fff">Dirección:</h5></label>
-                <input type="text" name="message" class="form-control" id="Direccion" placeholder="Dirección" >
-              </div>
-
-            <div class="mb-3">
-                <label for="message"><h5 style="color: #847fff">Mensaje:</h5></label>
-                <textarea name="message" class="form-control" placeholder="Mensaje" required="" id="Mensaje"></textarea>
-              </div>
-            
-            <button type="submit" class="miboton"  name="enviar">Enviar</button>
-          </form>
-        </div> 
-      </div>
-           
-      <div class="row" >
-      </div>
 
     </main>
+
     <footer>
       <div class="container py-5">
         <div class="row">
@@ -161,25 +112,5 @@
         </div>
       </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#Formulario").submit(function(e) {
-
-                e.preventDefault();
-
-                const nombre = $("#Nombre").val();
-                const correo = $("#Correo").val();
-                const tel = $("#Tel").val();
-                const direccion = $("#Direccion").val();
-                const mensaje = $("#Mensaje").val();
-                const referencia = "mailto:jellymaui@gmail.com?subject=Peticicion%20de%20informacion&body=Nombre:%20"+nombre+"%0D%0ACorreo:%20"+correo+"%0D%0ATelefono:%20"+tel+"%0D%0ADirección:%20"+direccion+"%0D%0AMensaje:%20"+mensaje;
-                const enlace = document.createElement("a");
-                enlace.href = referencia;
-                enlace.click(); 
-                
-            });
-        });     
-    </script>
-</body>
+</body>    
 </html>

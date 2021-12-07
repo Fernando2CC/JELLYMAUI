@@ -43,6 +43,7 @@ body {
   background-image: linear-gradient(160deg, #fdffc3 0, #f1ffc0 8.33%, #e3ffbe 16.67%, #d4fcbc 25%, #c4faba 33.33%, #b1f6b9 41.67%, #9df2b9 50%, #87eeba 58.33%, #6eeabd 66.67%, #51e6c2 75%, #24e2c8 83.33%, #00dfd0 91.67%, #00dcd8 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 .menu {
@@ -145,6 +146,10 @@ footer {
   transition: 0.4s;
 }
 
+.card_image1 img {
+  border-radius: 40px;
+}
+
 .card .card_image {
   width: 125%;
   height: inherit;
@@ -192,5 +197,5 @@ footer {
 }
 
 .row {
-  padding-bottom: 8%;
+  padding-bottom: 1%;
 }
